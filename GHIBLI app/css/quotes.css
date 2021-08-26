@@ -4,6 +4,9 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:whitesmoke;
     align-items: flex-end;
+    position:fixed;
+    top:0;
+    right:0;
 }
 #quote span:first-child{
     font-size: 17px;
