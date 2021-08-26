@@ -1,0 +1,21 @@
+@import "background.css";
+@import "clock.css";
+@import "greetings.css";
+@import "quotes.css";
+@import "weather.css";
+@import "todo.css";
+
+@import "reset.css";
+
+.hidden{
+    display:none;
+}
+
+body{
+    position:relative;
+}
+
+/* variable */
+:root{
+    --main-border:1px solid rgba(0,0,0,0.3);
+}
