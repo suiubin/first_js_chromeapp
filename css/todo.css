@@ -1,0 +1,47 @@
+#todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+    margin-top:60px;
+    z-index:0;
+    position:relative;
+}
+#todo-form input{
+    margin-top:20px;
+    margin-bottom: 10px;
+    width:20%;
+    font-family: 'Courier New', Courier, monospace;
+    border:var(--main-border);
+    border-radius: 25px;
+    height:20px;
+    text-align: center;
+}
+#todo-form input:focus{
+    outline:none;
+}
+#todo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:15%;
+}
+#todo-list li{
+    padding:3px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:0.8;
+}
+#todo-list span{
+    margin-right:4px;
+}
+#todo-list button{
+    outline:none;
+    border:none;
+    padding:2px 4px;
+    background-color:#ACDCB3;
+    border-radius: 50%;
+}
+#todo-list button:hover{
+    cursor:pointer;
+}
